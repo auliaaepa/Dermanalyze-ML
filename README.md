@@ -12,6 +12,13 @@ Our model is built to predict 8 skin cancer and non skin cancer labels. Here are
 * `vasc`: vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage)
 * `unk`: normal skin (include mole) and other skin diseases (acne, milia)
 
+## Data Extraction
+We have been collecting and retrieving disparate types of data from a variety of sources.
+Then, we created the directories structure. In these folders we stored train and validation images that will later be fed to the Keras generators.
+
+## Data Exploration
+Through data exploration, we view characteristics of the dataset. Next, we plot images that have the same lesion_id to see that the duplicate lesions have the same image. We also view data distribution in each label and the result is the number of images in each label differs greatly, this indicates that the data is not balanced, which is imbalanced data.
+
 ## Data Preprocessing
 Before the model is trained or used to predict, the image to be used will be pre-processed using `shades of gray color constancy`. Shades of gray color constancy are useful for constanting the image, especially on images of reddish skin and images taken using a dermascope. This is very helpful in the training process because the data sets we use come from different sources, where the way their photos are taken will also vary. So by using shades of gray color constancy, the model will focus on training/predicting the lesion, regardless of illuminations and skin condition.
 
