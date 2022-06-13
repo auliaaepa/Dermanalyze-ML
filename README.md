@@ -1,5 +1,6 @@
 # Dermanalyze-ML
 
+[Go to Parent Project](https://github.com/tenpoless/dermanalyze)
 
 ## Data 
 Our model is built to predict 8 skin cancer and non skin cancer labels. Here are the labels we use:
@@ -50,7 +51,7 @@ We chose to deploy the model using a server, but to reduce the large file size, 
 ## References
 ### Dataset
 * [Skin Cancer MNIST: HAM10000](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
-* [ISIC Archieve 2018](https://challenge.isic-archive.com/data/#2018)
+* [ISIC Archive 2018](https://challenge.isic-archive.com/data/#2018)
 * [Skin Lesions Dermatoscopic Images](https://www.kaggle.com/datasets/jnegrini/skin-lesions-act-keratosis-and-melanoma)
 * [DermNet NZ](https://dermnetnz.org/image-library)
 * [Normal Skin 1](https://ijdvl.com/the-utility-of-dermoscopy-in-the-diagnosis-of-evolving-lesions-of-vitiligo/)
